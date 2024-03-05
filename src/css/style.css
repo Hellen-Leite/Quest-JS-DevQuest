@@ -1,0 +1,90 @@
+body{
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+main .secao-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+main .secao-principal .apresentacao{
+    width: 300px;
+    height: 111px;
+
+}
+main .secao-principal .apresentacao h1{
+    font-weight: 900;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 11px;
+}
+main .secao-principal .apresentacao p{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+main .secao-principal form{
+    width: 340px;
+    height: 385px;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+ form input{
+    margin-bottom: 15px;
+    height: 35px;
+    border: none;
+}
+.borda-preta, .mensagem{
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+form input,.mensagem{
+   
+    padding: 9px;
+    color: #A8A8A8;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 15px;
+    width: 298px;
+}
+
+ form p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+ form input#submit{
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    cursor:pointer
+}
+.borda-verde{
+    border:1px solid #00C22B;
+    border-radius: 5px;
+
+}
+.borda-vermelha{
+    border: 1px solid #F52E2E;
+    border-radius: 5px;
+    
+
+}
+
+main .secao-principal form .span-required{
+    display: none;
+}
+main .secao-principal form .selecionado{
+    display: block;
+    font-size: 8px;
+    color:#F52E2E
+}
+main .secao-principal form .borda-vermelha,.borda-verde,.selecionado{
+    transition: 20s ease-in-out;
+}
